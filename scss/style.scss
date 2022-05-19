@@ -1,0 +1,267 @@
+@import "fuentes";
+@import "variables";
+@import "tools";
+
+body{
+	@include font_family_roboto()
+	font-weight: map-get($miMap, light);
+} 
+
+.font-weight-bold{
+	font-weight: map-get($miMap, bold);
+}
+
+.font-weight-light{
+	font-weight: map-get($miMap, light);
+}
+
+.font-weight-medium{
+	font-weight: map-get($miMap, medium);
+}
+
+.comienzo{
+	margin-top: 310px !important;
+}
+
+.bg-color{
+	background-color: #aac1d59e;
+}
+
+.bg-scrolling{
+	background-color: #9bb0c191;
+}
+
+.color-pink{
+	color: pink;
+}
+
+.navBar{
+	margin-top:300px;
+	
+}
+
+.ws-flotante{
+	position: fixed;
+	right:20px;
+	bottom:80px;
+	z-index:100;
+	right: 30px;
+
+	img{
+	width: 55px;
+	height:55px;
+	}
+}
+
+.navbar-brand{
+
+	img{
+		margin-left: 50px;
+		height: 100%;
+		width: 120px;
+		border-radius:90px;
+		@media all and (max-width: $point-sm){
+			margin-left: 35px;
+			width: 100px;
+		}
+
+		&:hover{
+			transform: scale(1.7)
+		}
+	}
+}
+
+.navbar-nav{
+	.nav-item{
+		a{			
+			&:hover{
+				transform: scale(1.7)
+			}
+			img{
+				height: 100%;
+				width: 50px;
+				@media all and (max-width: $point-sm){
+					height: 100%;
+					width: 30px;
+				}
+			}
+		}
+	}
+}
+
+@keyframes letrero-index{
+	0%{
+		color: white;
+	}
+
+	100%{
+		color: grey;
+	}
+}
+
+.banner-index{
+	background-image: url('../assets/banner.jpg');
+	background-size: cover;
+	object-fit: contain;
+	border-radius:10px;
+	height: 300px;
+
+	@media all and (max-width: $point-md){
+		background-image: url('../assets/banner.jpg');
+		background-size: cover;
+		object-fit: contain;
+	}
+
+	.letrero-banner{
+		color: $color-letro-banner-index;
+		@include font_family_bebas()
+		font-size: 4rem;
+		margin-top: 230px;
+		animation-name: letrero-index;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		animation-duration: 1s;
+		animation-delay: 0.01s;
+
+		@media all and (max-width: $point-md){
+			font-size: 2.2rem;
+		}
+	}
+
+	.Encabezado{
+		color: white;
+		font-size:1.5rem;
+
+		@media all and (max-width: $point-sm){
+			font-size:1rem;
+		}
+	}
+
+	.boton-comprar{
+		color: $color-boton-comprar-index;
+		@include font_family_bebas()
+		font-size: 2rem;
+		margin-top: 150px;
+
+		&:hover{
+			background-color: $boton-comprar-index;
+			color: black;
+		}
+
+		@media all and (max-width: $point-md){
+			margin-top: 150px;
+		}
+	}
+}
+
+@keyframes letrero-animado{
+	0%{
+		color:#c786cc ;
+	}
+
+	100%{
+		color: magenta;
+	}
+}
+
+.letrero-descuento{
+	color: black;
+	@include font_family_bebas()
+	
+	font-size: 2rem;
+
+	@media all and (max-width: $point-md){
+			font-size: 1.5rem;
+		}
+
+	@media all and (max-width: $point-sm){
+			font-size: 1rem;
+		}
+}
+
+.letrero-codigo{
+	@extend .color-pink;
+	@include font_family_bebas()
+	font-size: 2rem;
+	background-color: orange;
+}
+
+.imagenes-index{
+	height: 300px;
+	border: 2px solid #0000002b;
+	border-radius: 20px;
+	transition: all 250ms ease-in-out;
+	box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
+
+	&:hover{
+		transform: scale(1.1);
+		box-shadow: 0 0 5px 0 rgba(0,0,0,.2);
+	}
+}
+
+.instrucciones{
+	p{
+		@include font_family_bebas()
+		font-size: 4rem;
+
+		@media all and (max-width: $point-md){
+			font-size: 2rem;
+		}
+	}
+
+	ol{
+		li{
+			@include font_family_bebas()
+			font-size: 1.5rem;
+
+			@media all and (max-width: $point-md){
+				font-size: 1rem;
+			}
+		}
+	}
+
+	h2{
+		@include font_family_bebas()
+		font-size: 2rem;
+
+		@media all and (max-width: $point-md){
+			font-size: 1.2rem;
+		}
+	}
+}
+
+.iconoLapiz{
+	img{
+		width:20px;
+		height:20px;
+	}
+	
+}
+
+.letras-modal{
+	@include font_family_roboto()
+	color: black;
+}
+
+.nav-link{
+	&:hover{
+		color: white !important;
+	}
+}
+
+#footer{
+	background-color: $bg-footer;
+
+	p{
+		@include font_family_roboto()
+		font-size: 1rem;
+		color: $color-footer-letras;
+	}
+
+	.nav{
+		img{
+			width: 40px;
+			height: 40px;
+		}
+	}
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 28,
+        "titulo": "Pinza amperimetrica BM818",
+        "precio": 20.00,
+        "stock": 10,
+        "cantidad": 0,
+        "imagen": "pinzaAmperimetrica",
+        "imagen2": "pinzaAmperimetrica2",
+        "imagen3": "pinzaAmperimetrica3",
+        "imagen4": "pinzaAmperimetrica4",
+        "imagen5": "pinzaAmperimetrica5",
+        "imagen6": "pinzaAmperimetrica",
+        "tipo": "electricidad",
+        "codigo": "hjbceh",
+        "caracteristicas": "-Condición: NUEVO<br>-Modelo: BM818<br>-Entorno de trabajo: 0-40ºC<br>-Modo de visualización: Pantalla LCD<br>-Pantalla máxima: 1999<br>-Alcance máximo de la mandíbula: 27 mm<br>-Indicación de polaridad negativa automática: muestra '-'<br>-Pantalla de luz de fondo: si<br>-Apagado automático: si<br>-Pantalla de bajo voltaje: si<br>-Prueba de diodo: si<br>-Tamaño: 213x80x30mm<br>-Resistencia Máxima: 2 M(ohm)<br>-Capacitancia Máxima: 2mF",
+        "funciones": "-Multifuncional, puede medir voltaje en corriente alterna o corriente directa, corriente alterna, resistencia, capacitancia, NCV, diodo, continuidad.<br>-Diseño portátil, pequeño y si puede poner en el bolsillo, fácil de llevar.<br>-Rendimiento estable, alta precisión, gran pantalla retroiluminada LCD, gran rango de capacitancia.<br>-Probador NCV seguro y confiable sin contacto.<br>-Indicador de zumbido",
+        "contenido": "-(01) Tester Multímetro con pinza Amperimétrica Bm818<br>-(02) Pinza para voltaje<br>-(01) Manual<br>-(01) Estuche<br>-(02) Batería AAA"
+    },
+    {
+        "id": 29,
+        "titulo": "Pinza amperimetrica DT3266F",
+        "precio": 9.00,
+        "stock": 10,
+        "cantidad": 0,
+        "imagen": "dt3266Fnuevo",
+        "imagen2": "dt3266Fnuevo1",
+        "imagen3": "dt3266Fnuevo",
+        "imagen4": "dt3266Fnuevo1",
+        "imagen5": "dt3266Fnuevo",
+        "imagen6": "dt3266Fnuevo1",
+        "tipo": "electricidad",
+        "codigo": "hjbceh",
+        "caracteristicas": "-Condición: NUEVO<br>-Modelo: DT3266F",
+        "funciones": "-Multifuncional, puede medir voltaje en corriente alterna o corriente directa, corriente alterna, resistencia, continuidad.<br>-Diseño portátil, pequeño y si puede poner en el bolsillo, fácil de llevar.<br>-Rendimiento estable, alta precisión, gran pantalla retroiluminada LCD.<br>-Indicador de zumbido",
+        "contenido": "-(1) Tester Multímetro con pinza Amperimétrica DT3266F<br>-(2) Pinza para voltaje<br>-(1) Manual<br>-(2) Batería AAA"
+    }
+]

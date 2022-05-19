@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dongle:wght@300;400;700&family=Montserrat:wght@400;600;800&family=Roboto:ital,wght@0,100;0,700;1,400&display=swap");
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.font-weight-bold {
+  font-weight: 700;
+}
+
+.font-weight-light {
+  font-weight: 300;
+}
+
+.font-weight-medium {
+  font-weight: 400;
+}
+
+.comienzo {
+  margin-top: 310px !important;
+}
+
+.bg-color {
+  background-color: #aac1d59e;
+}
+
+.bg-scrolling {
+  background-color: #9bb0c191;
+}
+
+.color-pink, .letrero-codigo {
+  color: pink;
+}
+
+.navBar {
+  margin-top: 300px;
+}
+
+.ws-flotante {
+  position: fixed;
+  right: 20px;
+  bottom: 80px;
+  z-index: 100;
+  right: 30px;
+}
+
+.ws-flotante img {
+  width: 55px;
+  height: 55px;
+}
+
+.navbar-brand img {
+  margin-left: 50px;
+  height: 100%;
+  width: 120px;
+  border-radius: 90px;
+}
+
+@media all and (max-width: 576px) {
+  .navbar-brand img {
+    margin-left: 35px;
+    width: 100px;
+  }
+}
+
+.navbar-brand img:hover {
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
+}
+
+.navbar-nav .nav-item a:hover {
+  -webkit-transform: scale(1.7);
+          transform: scale(1.7);
+}
+
+.navbar-nav .nav-item a img {
+  height: 100%;
+  width: 50px;
+}
+
+@media all and (max-width: 576px) {
+  .navbar-nav .nav-item a img {
+    height: 100%;
+    width: 30px;
+  }
+}
+
+@-webkit-keyframes letrero-index {
+  0% {
+    color: white;
+  }
+  100% {
+    color: grey;
+  }
+}
+
+@keyframes letrero-index {
+  0% {
+    color: white;
+  }
+  100% {
+    color: grey;
+  }
+}
+
+.banner-index {
+  background-image: url("../assets/banner.jpg");
+  background-size: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border-radius: 10px;
+  height: 300px;
+}
+
+@media all and (max-width: 768px) {
+  .banner-index {
+    background-image: url("../assets/banner.jpg");
+    background-size: cover;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+
+.banner-index .letrero-banner {
+  color: #c786cca1;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4rem;
+  margin-top: 230px;
+  -webkit-animation-name: letrero-index;
+          animation-name: letrero-index;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0.01s;
+          animation-delay: 0.01s;
+}
+
+@media all and (max-width: 768px) {
+  .banner-index .letrero-banner {
+    font-size: 2.2rem;
+  }
+}
+
+.banner-index .Encabezado {
+  color: white;
+  font-size: 1.5rem;
+}
+
+@media all and (max-width: 576px) {
+  .banner-index .Encabezado {
+    font-size: 1rem;
+  }
+}
+
+.banner-index .boton-comprar {
+  color: white;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  margin-top: 150px;
+}
+
+.banner-index .boton-comprar:hover {
+  background-color: white;
+  color: black;
+}
+
+@media all and (max-width: 768px) {
+  .banner-index .boton-comprar {
+    margin-top: 150px;
+  }
+}
+
+@-webkit-keyframes letrero-animado {
+  0% {
+    color: #c786cc;
+  }
+  100% {
+    color: magenta;
+  }
+}
+
+@keyframes letrero-animado {
+  0% {
+    color: #c786cc;
+  }
+  100% {
+    color: magenta;
+  }
+}
+
+.letrero-descuento {
+  color: black;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+}
+
+@media all and (max-width: 768px) {
+  .letrero-descuento {
+    font-size: 1.5rem;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .letrero-descuento {
+    font-size: 1rem;
+  }
+}
+
+.letrero-codigo {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+  background-color: orange;
+}
+
+.imagenes-index {
+  height: 300px;
+  border: 2px solid #0000002b;
+  border-radius: 20px;
+  -webkit-transition: all 250ms ease-in-out;
+  transition: all 250ms ease-in-out;
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.imagenes-index:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.instrucciones p {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4rem;
+}
+
+@media all and (max-width: 768px) {
+  .instrucciones p {
+    font-size: 2rem;
+  }
+}
+
+.instrucciones ol li {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 1.5rem;
+}
+
+@media all and (max-width: 768px) {
+  .instrucciones ol li {
+    font-size: 1rem;
+  }
+}
+
+.instrucciones h2 {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 2rem;
+}
+
+@media all and (max-width: 768px) {
+  .instrucciones h2 {
+    font-size: 1.2rem;
+  }
+}
+
+.iconoLapiz img {
+  width: 20px;
+  height: 20px;
+}
+
+.letras-modal {
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.nav-link:hover {
+  color: white !important;
+}
+
+#footer {
+  background-color: #aac1d5;
+}
+
+#footer p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: white;
+}
+
+#footer .nav img {
+  width: 40px;
+  height: 40px;
+}
+/*# sourceMappingURL=style.css.map */
