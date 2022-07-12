@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "titulo": "Persona1",
+        "fotoDePerfil": "fotoDePerfil",
+        "nombre": "Ricardo Nuñez",
+        "Formacion1": "Ingerniero Mecánico",
+        "Formacion2": "Developer Full Stack"
+    },
+    {
+        "id": 2,
+        "titulo": "Acerca De",
+        "detalle": "Soy Ingeniero Mecánico, he estado ejerciendo mi profesión durante los últimos 4 años, y actualmente decidí hacer un cambio en mi carrera y comencé a estudiar sistemas. Desde entonces me encuentro en formación como programador full stack, y estoy en busca de mi primera experiencia laboral en el área. "
+    },
+    {
+        "id": 3,
+        "titulo": "Experiencia Laboral",
+        "descripcion": "Proyectista Mecánico",
+        "detalle": "• Diseño de Matrices para la extrusión de Aluminio.• Desarrollo de diseños funcionales en SolidWorks.• Programador de centros de Mecanizado CNC.• Programador de maquinas de electroerosión por hilo.• Seguimiento de funcionalidad de diseños.• Comunicación directa con los clientes.",
+        "empresa": "Madexa S.A",
+        "fechaDeInicio": "Julio 2019",
+        "fechaDeFin": "Actualidad"
+
+    },
+    {
+        "id": 4,
+        "titulo": "Formacion complementaria",
+        "formacion1": "Desarrollo Web",
+        "Empresa1": "CoderHouse",
+        "fechaDeInicio1": "Noviembre 2021",
+        "fechaDeFin1": "Enero 2022",
+        "formacion2": "Desarrollo Web",
+        "Empresa2": "CoderHouse",
+        "fechaDeInicio2": "Enero 2022",
+        "fechaDeFin2": "Abril 2022",
+        "formacion3": "Programador Full Stack Jr",
+        "Empresa3": "Argentina Programa",
+        "fechaDeInicio3": "Enero 2022",
+        "fechaDeFin3": "Agosto 2022",
+        "formacion4": "Ingeniero Mecánico",
+        "Empresa4": "Universidad de Carabobo",
+        "fechaDeInicio4": "Marzo 2012",
+        "fechaDeFin4": "Febrero 2018"
+    },
+    {
+        "id": 5,
+        "titulo": "Hard and Soft Skils",
+        "Aptitud1": "HTML",
+        "Aptitud2": "CSS",
+        "Aptitud3": "JavaScript",
+        "Aptitud4": "SASS",
+        "Aptitud5": "GitHub",
+        "Aptitud6": "Diseño Web",
+        "Aptitud7": "Angular JS",
+        "Aptitud8": "Java",
+        "Aptitud9": "Spring Boot",
+        "Aptitud10": "Inglés Intermedio"        
+    }
+]
