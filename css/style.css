@@ -20,19 +20,6 @@ body{
   background-color: #b3b2b2;
 }
 
-.ws-flotante {
-  position: fixed;
-  right: 20px;
-  bottom: 80px;
-  z-index: 100;
-  right: 30px;
-}
-
-.ws-flotante img {
-  width: 55px;
-  height: 55px;
-}
-
 .navbar-brand img {
   height: 100%;
   width: 100px;
